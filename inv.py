@@ -2,7 +2,7 @@ import wmi
 import datetime as dt
  
 RESULT_FILE = "inventory"
-subnet = '172.19.226.'
+subnet = '172.19.224.'
 OS_LIST = {
     '2012_R2': 0,
     '2012': 0,
