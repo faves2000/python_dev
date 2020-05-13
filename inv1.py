@@ -31,7 +31,7 @@ def get_time_date():
     return now.strftime("%H:%M:%S %d %m %Y")
  
 def main():
-    result_file_name = RESULT_FILE + '.' + subnet + 'txt'
+    result_file_name = RESULT_FILE + '.' + subnet + 'txt' # имя файла + subnet + ip
     for ip in range(28,30):
         ip_address = subnet + str(ip)
         #print(ip_address)
